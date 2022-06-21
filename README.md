@@ -1,5 +1,7 @@
 # Ecommerce
-Angular 14.0.2: demo angular-e-commerce with local storage
+Angular 14.0.2: demo angular-e-commerce with local storage et l'utilisation de la puissance de BehaviorSubject de RXJS.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2
 
 ## Development server
