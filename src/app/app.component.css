@@ -1,0 +1,17 @@
+
+.badge{
+ position: absolute;
+ top: 10px;
+ right:46px;
+ width:25px;
+ height:25px;
+ border-radius: 100%;
+ background-color: red;
+ cursor: pointer;
+}
+.img-fluid{
+  width:40px;
+  height:40px;
+  cursor: pointer;
+
+}

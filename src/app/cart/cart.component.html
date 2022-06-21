@@ -1,0 +1,53 @@
+<ng-container *ngIf="products != 0">
+<div class="container">
+<table class="table mt-5">
+<tr>
+<th>Image du produit</th>
+<th>Nom du produit</th>
+<th>Description du produit</th>
+<th>Prix du produit</th>
+<th>Quantité de produit</th>
+<th>Total des produits</th>
+<th>Action</th>
+</tr>
+<tbody>
+<tr *ngFor="let produit of products">
+<td><img src="{{produit.image}}"></td>
+<td class="title">{{produit.title}}</td>
+<td class="description">{{produit.description}}</td>
+<td><strong>{{produit.price|currency:'EUR':'symbol':'1.0':'fr'}}</strong></td>
+<td><strong>{{produit.quantity}}</strong></td>
+<td><strong>{{produit.totalP|currency:'EUR':'symbol':'1.0':'fr'}}</strong></td>
+<td><span (click)="deleteItem(produit)" class="material-icons text-danger">
+delete_forever</span></td>
+</tr>
+<tr>
+<td><button type="button" (click)="viderPanier()" class="btn btn-danger shop">Vider le panier</button></td>
+<td><button type="button" routerLink="/products" class="btn btn-primary shop">Ajouter des produits</button></td>
+<td><button type="button" class="btn btn-success shop">Aller à la caisse</button></td>
+
+<td><button type="button" class="btn btn-outline-success shop" > Somme totale: {{totalItem|currency:'EUR':'symbol':'1.0':'fr'}}</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</ng-container>
+
+
+<ng-container *ngIf="products == 0">
+<div class="container">
+<div class="card mt-5 mx-auto">
+<h1 class="card-title">Panier</h1>
+<span class="material-icons cart-icon">
+remove_shopping_cart
+</span>
+<p class="card-text text-center fs-5 ">
+Votre panier est actuellement vide
+</p>
+<button class="btn btn-primary btn-md" routerLink= "/products">Ajouter des produits</button>
+</div>
+</div>
+
+</ng-container>
+
+

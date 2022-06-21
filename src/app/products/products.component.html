@@ -1,0 +1,15 @@
+
+<div class="container">
+<div class="row">
+  <div class="card mt-5" style="width: 18rem;" *ngFor="let product of products">
+  <img [src]="product.image" class="card-img-top" alt="produits">
+  <div class="card-body">
+    <h5 class="card-title">{{product.title}}</h5>
+    <p class="card-text desc">{{product.description}}</p>
+    <p class="card-text fw-bold fs-4 text-center">{{product.price |currency:'EUR':'symbol':'1.0':'fr'}} </p>
+    <button type="button" (click)="ajoutDansPanier(product)" class="btn btn-primary col-12 mx-auto">Ajouter panier</button>
+  </div>
+</div>
+
+</div>
+

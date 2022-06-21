@@ -1,0 +1,31 @@
+
+.card-title{
+  font-size: 1.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:rgb(29, 4, 4);
+  text-align: center;
+}
+.card{
+ padding: 6px;
+  margin:10px;
+}
+.card img{
+  width:250px;
+  height:250px;
+  padding:8px;
+}
+.card img:hover
+{
+cursor:pointer;
+transition: ease-in-out .3s;
+transform:scale(1.1);
+}
+.desc
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

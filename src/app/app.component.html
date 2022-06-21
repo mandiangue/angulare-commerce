@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2" routerLink="/products">E-COMMERCE by Angular</a>
+
+
+<span (click)="redirectCart()"><img src="../assets/imgs/cart.png" class="img-fluid position-relative">
+
+    <span class="badge">{{cartNumber}}</span>
+</span>
+
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+

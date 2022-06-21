@@ -1,0 +1,76 @@
+.cart-icon{
+margin: 0 auto;
+font-size:8rem;
+
+
+}
+.card
+{
+  width: 80%;
+  height: 60vh;
+ 
+
+}
+.text-danger
+{
+  cursor: pointer;
+}
+.title{
+  font-size: 1em;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+
+  
+}
+.card-title{
+  text-align: center;
+  padding:2rem;
+  text-decoration: underline;
+}
+.card-text{
+  height:30vh;
+  padding:2rem;
+}
+.btn-md{
+  width:30%;
+  margin: 0 auto;
+  
+
+  text-transform: uppercase;
+}
+.description{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: .9em;
+  max-width:50ch;
+
+}
+img{
+  width:100px;
+  height:100px;
+  padding:8px;
+}
+table{
+  padding:10px;
+}
+th{
+  
+  font-size: .9em;
+  white-space: nowrap;
+  padding:2rem;
+}
+tr{
+  padding:5rem;
+}
+td{
+  text-align: center;
+}
+.shop{
+  margin: 5px auto;
+
+  padding:.8rem;
+  white-space: nowrap;
+}
