@@ -1,6 +1,6 @@
 # Ecommerce
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+Angular 14.0.2: demo angular-e-commerce with local storage
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2
 
 ## Development server
 
