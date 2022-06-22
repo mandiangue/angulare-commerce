@@ -23,13 +23,7 @@ export class CartService {
   }
 
 
-  setProduct(product: any) {
-
-    this.cartItem.push(...product)
-    this.products.next(product)
-
-
-  }
+  
   ajoutPanier(product: any) {
 
     this.cartItem.push(product)
